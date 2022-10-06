@@ -1,0 +1,15 @@
+{
+  "name": "clinic",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "test": "npx cypress open --browser chrome",
+    "start": "npx cypress run --record --key 89e0c044-f16e-44b6-99e5-72f9a03a7e54 --group develop-test"
+  }
+}
